@@ -1,0 +1,59 @@
+html {
+    background-color: white;
+
+}
+
+h1 {
+    margin-left: 10em;
+    font-family: "abril fatface";
+    font-size: 40px;
+    margin-bottom: -.5em;
+}
+
+h2 {
+    margin-left: 19em;
+    font-family: "montserrat thin", "georgia";
+    font-size: 30px;
+    margin-top: .5em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    display: block;
+    font-family: "cinzel", "georgia";
+    font-size: 15px;
+    margin: auto;
+    text-align: center;
+    
+    width: 500px;
+    
+}
+
+footer {
+    display: grid;
+    font-family: "cinzel", "georgia";
+    font-size: 12px;
+    margin-right: 1em;
+    text-align: center;
+    margin-top: 10em;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-grid-container {
+        grid-template-columns: 1fr;
+        grid-template-areas: none;
+    }
+    nav {
+        width: 50vw;
+    }
+}
+

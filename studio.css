@@ -1,0 +1,58 @@
+html {
+    background-image: url(http://ldofficiel.eu/Screen%20Shot%202019-02-28%20at%202.10.52%20pm.png);
+    background-position:center;
+    background-size: cover;
+
+}
+
+h1 {
+    margin-left: 6em;
+    font-family: "abril fatface";
+    font-size: 40px;
+    margin-bottom: -.5em;
+    color: black;
+}
+
+h2 {
+    margin-left: 12em;
+    font-family: "montserrat thin", "georgia";
+    font-size: 30px;
+    margin-top: .5em;
+    
+}
+
+nav {
+    display: grid;
+    font-family: "cinzel", "georgia";
+    font-size: 15px;
+    margin-right: 20em;
+    margin-left: 20em;
+    text-align: center;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+footer {
+    display: grid;
+    font-family: "cinzel";
+    font-size: 12px;
+    margin-right: 1em;
+    text-align: center;
+}
